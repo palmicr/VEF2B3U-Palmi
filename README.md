@@ -8,4 +8,12 @@ palmicr@gmail.com
 Gunnar Þórunnarson(GUS)
 
 gus@tskoli.is
+### Skóli
+Tækniskólinn
+
+Upplýsingatækniskólinn 
+
+- Reykjavík - 
+
+Tölvubraut TBR13
 
