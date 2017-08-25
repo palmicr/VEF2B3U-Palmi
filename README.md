@@ -13,7 +13,7 @@ Tækniskólinn
 
 Upplýsingatækniskólinn 
 
-- Reykjavík - 
+Reykjavík
 
 Tölvubraut TBR13
 
