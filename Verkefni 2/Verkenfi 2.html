@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Verkefni 2</title>
+			<meta charset="utf-8" />
+			<!-- Css -->
+			<link rel="stylesheet" href="style.css" />
+	</head>
+	
+	<body>
+	
+		<script>
+// 					*******************---------------------*************************
+// 					**-*-*-*-*-*-*-*-*-* Pálmi C Rúnarsson *-*-*-*-*-*-*-*-*-*-*-*-**
+// 					**-*-*-*-*-*-*-*-*-* Verknfi.2 VEF2B3U *-*-*-*-*-*-*-*-*-*-*-*-**
+// 					*******************---------------------*************************
+
+/* 		1. Hvað er ECMAScript?
+			->  ECMAScript er vörumerkt script-mál sem er af ECMA International og er þekktust 
+				fyrir að vera notuð í JavaScript. ECMAScript inniheldur structured, dynamic,
+				functional og prototype-based forritun.
+*/
+/*		2. Hvað þýðir að JavaScript sé loosly typed tungumál?
+			->  Loosly typed tungumál(eins og JavaScript) þýðir að tungumálið vill og gétur gert 
+				margt án þess að þú segir því að gera það. Þú þarf ekki að define'a varaible sem int
+				eða string því JavaScript mun define'a það fyrir þig. 
+*/
+/* 		3. Er einhver munur á einföldum og tvöföldum gæsalöppum í JavaScript?
+			-> 	Nei. Þessi 2 eru notuð til að geta vera með tvö sting innaní hvort öðru.
+*/
+/*		4. Hvað er null og undefined?
+			->  Null er skilgreynt fall með ekkert gildi.
+				Undefined þíðir að fallið hefur verið skilgreint, en hefur ekki verið gefið gildi.
+*/
+/*		5. Hver er munurinn á == og === í JavaScript?
+			->  == Berir saman hvort það hefur sama gildi þrátt fyrir týpu gildis. String eða int,
+					skiptir ekki máli.
+				=== Berir saman hvort það hefur sama gildi og sama týpu. Að það sé nákvæmlega
+					alveg eins.
+*/
+/*
+		6. Hver er munurinn á let og var? komdu með kóðadæmi sem sýnir muninn.
+			->	Var er breita sem er global.
+				Let er block scope, en er líka global en ef notaður í block er bara innaní blockinnu.
+
+*/
+			function varDemo() {
+			var x = 1;
+			if (true) {
+				var x = 2;  
+				document.write(x + "<br>"); 
+				}
+			document.write(x + "<br>"); 
+			}
+			varDemo();
+
+			function letDemo() {
+			let y = 1;
+			if (true) {
+				let y = 2; 
+				document.write(y + "<br>"); 
+				}
+			document.write(y + "<br>"); 
+			}
+			letDemo();
+			
+		</script>
+	
+	</body>
+	
+</html>
