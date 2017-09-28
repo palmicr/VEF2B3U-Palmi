@@ -1,0 +1,9 @@
+1. getElementByID er hraðast því engin 2 elementar géta hafið sama gildið í id'innu.
+
+2. querySelectorAll skilar frá sér öll gildi frá hver einu Id gildi á síðunni.
+
+3.
+
+4.getElementByTagName skilar frá sér öll gildi sem eru inn í slilgreindu tagi í röðinni sem þeir eru á síðunni.
+
+5. whitespace note er millibilið sem fillist með text node milli elementunum. Hægt er að koma í veg fyrir þetta með JQuery. 
