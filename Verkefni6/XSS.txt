@@ -1,0 +1,6 @@
+XSS er þegar það er gert árás á síðu með að skrifa kóða innan í síðunna notandi user input. Hægt er fyrir þá að
+fá user info, cookies og annara user info þegar þeir loga sig inn. Þetta gæti endað í að hann gétur tekið yfir 
+userinum og dreift kóðanum á aðra noteindur. Þegar við notum innerHTML til að færast með gögn á milli síða 
+þurfum að verjast að incripta dataið eða bara ekki nota innerHTML til að færa gögn. Gott er að nota validation 
+og double-checka alltaf. 
+ 
