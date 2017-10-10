@@ -1,5 +1,5 @@
 # VEF2B3U - VefÞróun
-Verkefni fyrir VEF2B3U
+Verkefni Fyrir VEF2B3U
 ## Nemandi
 Pálmi C. Rúnarsson(PCR)
 
@@ -13,7 +13,7 @@ Tækniskólinn
 
 Upplýsingatækniskólinn 
 
-Reykjavík
+101 Reykjavík
 
 Tölvubraut TBR13
 
