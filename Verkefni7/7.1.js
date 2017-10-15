@@ -70,3 +70,8 @@
 	</html>
 
 	*********************************************************
+
+	*	CallBack: Er function sem sem keyrir aðra functon. JavaScript virkar með að keyra
+		línu eftir línu. Án callback functon myndi kóðin halda áfram án þess að functonið væri buið.
+		Callback bíður eftir að það er búið að hlaða og síðan keyrir hann í gang.
+		
