@@ -1,5 +1,5 @@
 /*
-7.1	: 	3 leiðir til að binda event við element.
+	*1 Það eru til þrjár leiðir að binda event við element, hver þeirra leiða er best og af hverju? ()
 	********************************************************* 
 	*	HTML Event Handlers -> 	Eru ekki í notkun.			*
 	
@@ -71,7 +71,28 @@
 
 	*********************************************************
 
-	*	CallBack: Er function sem sem keyrir aðra functon. JavaScript virkar með að keyra
+	*2	Hvað er callback? Útskýrðu með eigin orðum, komdu með kóðadæmi. ()
+		CallBack: Er function sem sem keyrir aðra functon. JavaScript virkar með að keyra
 		línu eftir línu. Án callback functon myndi kóðin halda áfram án þess að functonið væri buið.
 		Callback bíður eftir að það er búið að hlaða og síðan keyrir hann í gang.
-		
+
+	*3	Hvað er EventLoop? Úrskýrðu með eigin orðum. ()
+		EventLoop er röðinn á aðgerðum vefsins. 
+
+	*4	Leiðréttu eftirfarandi kóða þannig að hann virki (ekki syntax villa) ()
+		function checkUsername() {
+		var target = e.target;
+		}
+		var el = document.getElementById('username');
+		el.addEventListener('blur', function(){checkUsername(5);}, false);
+
+	*5	Event flow, Hvað þýðir false í Event Listener? ()
+		Defult er Event listener false. Þegar það er false byrjar það með ysta taginu og 
+		vinnur sér niðir. Þegar það er trú byrjar aðgerðinn innst og vinnur sig upp.
+
+	*6 	Hvað gera eftirfarandi aðferðir? Komdu með dæmi um notkun ()
+			(a. stopPropagation()
+			(b. preventDefault()
+
+			a) Stoppar elementið að "bubbla"
+			b) Kemur í veg fyrir default hegðun elemntins ef það er hægt. 
