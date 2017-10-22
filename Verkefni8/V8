@@ -1,0 +1,48 @@
+/* Verkefni 8 --- Pálmi C. Rúnarsson
+
+		*************************************************************
+	*	1.Hver er munurinn á for, forEach, for-in og for-of lykkjum?
+			\-> For-loop endurtekur "condition'ið" þar til því er 
+				breytt í false. Default er loopið set á true svo
+				hún hættir ekki fyrir en breytt í false. Getur 
+				"declare'að" fall.
+			\->	forEach endurtekur sig fyrir hvern array element.
+				Hann framkvæmir callback fyrir hvern array lið
+				og tekur að sér 3 arguments(value,index og array'ið).
+			\-> for-in er notað til að skila nöfn og fjölda fallana
+				í objectinu. Loopið tekur að sér object'ið og object 
+				nafnið til að skila listanum.
+			\-> for-of er frekar líkt "in" en skilar array values'in.
+		*************************************************************
+	*	2.Gerðu eitthvað nytsamlegt með eftirfarandi kóðabút:
+			
+			var	divs = document.getElementsByTagName('div');	
+			for	(var i = 0, div; div	= divs[i]; i++){		
+					
+			}
+		*************************************************************
+	*	3.Hvað er template literals? Komdu með kóðasýnidæmi ásamt skýringum
+			\-> Template literals nota "back-tick" merkið í stað tvoföldu eða 
+				einföldu quota. Með að nota template literals er hægt að 
+				sleppa við að loka og opna annan string þegar þú ert að bæta in
+				function heldur gétur þú notað "$" merkið til að merkja function.
+				Og þú gétur skrifað í mörgum línum í stað bara einum.
+
+				var a = 5;
+				var b = 10;
+				console.log(`Fifteen is ${a + b} and
+				not ${2 * a + b}.`);
+		*************************************************************
+	*	5.Hvað er Class í JavaScript og hvernig	tengist	það	prototype?
+			\-> JavaScript er classa-laust túngumál. En allt í JavaSqript er object
+				og inherit'a properties frá teirra prototype.
+		*************************************************************
+	*	6.Hvað er Closures, hvernig sérðu fyrir þér gagnsemi þess? Komdu með kóðasýnidæmi ásamt	skýringum.
+			\-> Closures er sterkur partur af JavaScript.
+		*************************************************************
+	*	7.Hvað er Arguments object? Hvenær getur verið nytsamlegt að nota hann? Komdu með 
+		  kóðasýnidæmi með notkun ásamt skýringum
+		  	\-> Arguments object's eru JavaSqcript að geyma object'in sem eru inní perementers í
+		  		functon'innu. Þar að meðal er hægt að kalla á þá perementers með "arguments[númer]" 
+		  		í stað ða kalla perementerinn. Þá er líka hægt að hafa einga parametara en samt kallað
+		  		á þá, þótt þeir eru undefined. 
