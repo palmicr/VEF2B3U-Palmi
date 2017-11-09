@@ -1,0 +1,76 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #737373;
+}
+
+header {
+	margin: 0 0 10px 0;
+	padding: 10px 0 0 0;
+	text-align: center;
+	color: #ffffff;
+	min-height: 50px;
+	background-color: #333333;
+}
+
+h1 {
+	margin: 10px auto 10px auto
+}
+
+#leita {
+	text-align: center;
+	margin: 10px 50px 10px 50px;
+}
+
+input {
+	width: 100%;
+	font-size: 120%;
+	border: 1px solid #999;
+	padding: 5px;
+}
+input:hover {
+	border: 1px solid #666;
+}
+input:focus {
+	border: 1px solid #00cccc;
+	outline: none;
+}
+
+#event_list {
+	text-align: center;
+	max-width: 1020px;
+	margin: 0 auto;
+}
+#event_tap img {
+	width: 285px;
+	height: 190px;
+	border-radius: 3px;
+	border: 8px solid #fff;
+	margin: 10px;
+    -webkit-box-shadow: 0 0 3px 3px #ebebeb;
+    box-shadow: 0 0 3px 3px #ebebeb;
+	float: left
+}
+
+#event_tap {
+	width: 285px;
+	height: 190px;
+	margin: 20px 20px 20px 20px;
+	float: left
+}
+
+#event_tap:hover #event_info{
+	display: block;
+}
+
+#event_info {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 285px;
+    max-width: 285px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: center;
+    padding: 15px;
+}
